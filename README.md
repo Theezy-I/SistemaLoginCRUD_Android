@@ -1,31 +1,15 @@
 # UserManager — Projeto Android Acadêmico
 
 ## 📋 Índice
-1. [Por que Room Database?](#por-que-room-database)
-2. [Estrutura do Projeto](#estrutura-do-projeto)
-3. [Dependências Gradle](#dependências-gradle)
-4. [Passo a Passo de Instalação](#passo-a-passo-de-instalação)
-5. [Como Executar no Android Studio](#como-executar-no-android-studio)
-6. [Usuário Administrador Padrão](#usuário-administrador-padrão)
-7. [Como Testar Todas as Funcionalidades](#como-testar-todas-as-funcionalidades)
-8. [Possíveis Erros e Soluções](#possíveis-erros-e-soluções)
-9. [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
-10. [Arquitetura MVVM](#arquitetura-mvvm)
-
----
-
-## Por que Room Database?
-
-| Critério | Room ✅ | Firebase | Supabase | SQLite Puro |
-|---|---|---|---|---|
-| Funciona offline | ✅ Sempre | ❌ Precisa de internet | ❌ Precisa de internet | ✅ |
-| Risco na apresentação | Baixíssimo | Alto (falha de rede) | Alto (falha de rede) | Médio |
-| Configuração | Zero | Conta Google + JSON | Conta + URL | Manual |
-| Verificação em compilação | ✅ Queries verificadas | ❌ | ❌ | ❌ |
-| Integração Kotlin Coroutines | ✅ Nativa | Manual | Manual | Manual |
-| Curva de aprendizado | Baixa | Média | Alta | Alta |
-
-**Conclusão**: Room é a escolha ideal para projetos acadêmicos pois funciona 100% offline (zero risco de falha de rede durante a apresentação), não exige nenhuma conta externa ou configuração de servidor, e tem integração nativa com Kotlin e LiveData.
+1. [Estrutura do Projeto](#estrutura-do-projeto)
+2. [Dependências Gradle](#dependências-gradle)
+3. [Passo a Passo de Instalação](#passo-a-passo-de-instalação)
+4. [Como Executar no Android Studio](#como-executar-no-android-studio)
+5. [Usuário Administrador Padrão](#usuário-administrador-padrão)
+6. [Como Testar Todas as Funcionalidades](#como-testar-todas-as-funcionalidades)
+7. [Possíveis Erros e Soluções](#possíveis-erros-e-soluções)
+8. [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
+9. [Arquitetura MVVM](#arquitetura-mvvm)
 
 ---
 
